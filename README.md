@@ -7,10 +7,11 @@
 *数据归用户所有 · 工业级确定性与规范约束 · AI 作为专业赋能层而非黑盒依赖*
 
 <p align="center">
-  <a href="https://github.com/mo9652962-ai?tab=repositories"><img src="https://img.shields.io/badge/Repositories-14_Public-2563EB?style=flat-square&logo=github" alt="Repositories"></a>
+  <a href="https://github.com/mo9652962-ai?tab=repositories"><img src="https://img.shields.io/badge/Repositories-15_Public-2563EB?style=flat-square&logo=github" alt="Repositories"></a>
   <a href="https://github.com/mo9652962-ai/circuit-agent"><img src="https://img.shields.io/badge/Hardware-CircuitAgent-blueviolet?style=flat-square&logo=kicad&logoColor=white" alt="CircuitAgent"></a>
   <a href="https://github.com/mo9652962-ai/wave-fixture-ai"><img src="https://img.shields.io/badge/Manufacturing-WaveFixture_AI-059669?style=flat-square" alt="WaveFixture AI"></a>
   <a href="https://github.com/mo9652962-ai/english-multiple-choice-practice-machine"><img src="https://img.shields.io/badge/App-墨题_MOTI-c73e3a?style=flat-square" alt="墨题 MOTI"></a>
+  <a href="https://github.com/mo9652962-ai/uni-miniprogram-pro"><img src="https://img.shields.io/badge/MiniProgram-uni_miniprogram_pro-07c160?style=flat-square&logo=wechat&logoColor=white" alt="uni-miniprogram-pro"></a>
   <a href="https://github.com/mo9652962-ai/second-brain"><img src="https://img.shields.io/badge/Second_Brain-760+_Notes-7C3AED?style=flat-square&logo=obsidian" alt="Second Brain"></a>
 </p>
 
@@ -70,7 +71,9 @@
 
 | 仓库 | 定位 | 特色与亮点 | 协议 |
 |:---|:---|:---|:---:|
+| 📱 **[uni-miniprogram-pro](https://github.com/mo9652962-ai/uni-miniprogram-pro)** | 跨端微信小程序全栈与商业实战脚手架 | Vite 5 + Vue 3 + TS + Wot Design Uni，集成云开发双轨仿真、自建API双Token无感刷新、微信支付V3及断路器熔断 | `MIT` |
 | 🛡️ **[agent-audit](https://github.com/mo9652962-ai/agent-audit)** | AI Agent 环境安全审计 CLI | 7 项只读环境体检（供应链/密钥/端口/MCP），对齐 OWASP & NSA CSI，提供 [Marketplace Action](https://github.com/marketplace/actions/agent-audit) | `MIT` |
+| 🤖 **[agent-audit-action](https://github.com/mo9652962-ai/agent-audit-action)** | GitHub Action CI 安全门禁 | 自动化集成 agent-audit，检查 git 泄漏、依赖投毒与端口暴露，OWASP/NSA 对齐 | `MIT` |
 | 📦 **[esq-builder-mcp](https://github.com/mo9652962-ai/esq-builder-mcp)** | ESQ 开放题库 MCP 工具链 | 构建（自动修复机械坑）→ 校验（双轨）→ 上传发布，已上架 MCP Registry | `MIT` |
 | 🧹 **[skill-maintenance-mcp](https://github.com/mo9652962-ai/skill-maintenance-mcp)** | 技能库运维 MCP | 自动完成技能修改前备份、损坏扫描、决策留痕与体检，消除机械失误 | `MIT` |
 | 🎯 **[quiz-assistant](https://github.com/mo9652962-ai/quiz-assistant)** | 本地优先题库 CLI | 墨题轻量前身，标准库 + SQLite 零依赖，支持 SM-2 算法与分层模糊匹配 | `MIT` |
@@ -96,8 +99,12 @@
 ![IPC Standards](https://img.shields.io/badge/IPC-2152%20%2F%202221-D69E2E?style=flat-square)
 ![LCSC & JLCPCB](https://img.shields.io/badge/Sourcing-LCSC%20%26%20JLCPCB-0052CC?style=flat-square)
 
-### 现代前端 & 可视化
+### 现代前端 & 跨端应用
 ![Vue 3](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![WeChat MiniProgram](https://img.shields.io/badge/WeChat-MiniProgram-07C160?style=flat-square&logo=wechat&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square)
+![Wot Design Uni](https://img.shields.io/badge/UI-Wot_Design_Uni-4D80F0?style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
