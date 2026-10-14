@@ -130,3 +130,11 @@
 [![GitHub stars](https://img.shields.io/github/stars/mo9652962-ai?style=social)](https://github.com/mo9652962-ai)
 
 </div>
+
+---
+
+## 📄 许可证、安全与隐私 (License, Security & Privacy)
+
+- **开源许可证**：本仓库内容基于 [MIT 许可证](LICENSE) 发布。
+- **安全政策**：详见 [SECURITY.md](SECURITY.md)。
+- **隐私政策**：详见 [PRIVACY.md](PRIVACY.md)（本地优先 · 零遥测）。
