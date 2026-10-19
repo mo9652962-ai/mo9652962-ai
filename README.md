@@ -8,6 +8,8 @@
 
 <p align="center">
   <a href="https://github.com/mo9652962-ai?tab=repositories"><img src="https://img.shields.io/badge/Repositories-15_Public-2563EB?style=flat-square&logo=github" alt="Repositories"></a>
+  <a href="https://mo9652962-ai.github.io/circuit-agent/"><img src="https://img.shields.io/badge/Demo-CircuitAgent_EDA-success?style=flat-square&logo=googlechrome&logoColor=white" alt="CircuitAgent EDA Demo"></a>
+  <a href="https://mo9652962-ai.github.io/wave-fixture-ai/"><img src="https://img.shields.io/badge/Demo-WaveFixture_3D-success?style=flat-square&logo=googlechrome&logoColor=white" alt="WaveFixture 3D Demo"></a>
   <a href="https://github.com/mo9652962-ai/circuit-agent"><img src="https://img.shields.io/badge/Hardware-CircuitAgent-blueviolet?style=flat-square&logo=kicad&logoColor=white" alt="CircuitAgent"></a>
   <a href="https://github.com/mo9652962-ai/wave-fixture-ai"><img src="https://img.shields.io/badge/Manufacturing-WaveFixture_AI-059669?style=flat-square" alt="WaveFixture AI"></a>
   <a href="https://github.com/mo9652962-ai/english-multiple-choice-practice-machine"><img src="https://img.shields.io/badge/App-墨题_MOTI-c73e3a?style=flat-square" alt="墨题 MOTI"></a>
@@ -22,25 +24,25 @@
 ## 🌟 四大旗舰工程 (Flagship Projects)
 
 ### ⚡ [CircuitAgent · AI 硬件合成与工业电路编译器](https://github.com/mo9652962-ai/circuit-agent)
-> **Prompt → Schematic → Layout → 3D Enclosure: 面向制造的 AI 硬件合成系统与 MCP 协议栈**
+> **Prompt → Schematic → Layout → 3D Enclosure: 面向制造的 AI 硬件合成系统与 MCP 协议栈** · [🌐 在线 EDA 工作台](https://mo9652962-ai.github.io/circuit-agent/)
 
-* 🧩 **CircuitBlocks 确定性硬件 DSL**：摒弃大模型自由画线的短路幻觉，将电路意图约束于 19+ 预审核硬件积木，实现引脚级仲裁与零电气错误。
-* 🏭 **全链路制造闭环**：内置免 Key 的嘉立创 LCSC 元件实时检索、IPC-2152 载流/温升热仿真、IPC-2221 高压安全爬电间距计算与工业 DFX 审核门禁。
-* 🔌 **14 个标准化 MCP 工具**：已上架 MCP Registry，支持导出标准 KiCad 网表、JLCPCB 贴片 BOM 与 CPL 坐标文件。
-* 🧪 **240 项单元测试全通过**，严苛的 Contract-Sync 契约防漂移守卫与确定性 CI 构建。
+* 🧩 **CircuitBlocks 确定性硬件 DSL**：摒弃大模型自由画线的短路幻觉，将电路意图约束于 24+ 预审核核心工业积木（微控制器/电源/CAN-FD/RS485/以太网），实现零电气错误。
+* 🏭 **全链路制造与物理求解**：内置嘉立创 LCSC 元件实时检索、IPC-2141A 阻抗/时延偏斜求解、IPC-2581B 智能制造包、Interactive HTML BOM 与 **44 条工业级 ERC 电气规则检查**（含 IEC 62368-1 爬电间距）。
+* 🔌 **56 个标准化 MCP 工具**：已上架官方 MCP Registry，支持直出 KiCad 8/9/10 原生原理图 (`.kicad_sch`) 与 Specctra 15.0 DSN 自动布线文件。
+* 🧪 **383 项单元测试全通过**，严苛的确定性编译器契约守卫与 PEP 740 供应链 Provenance 验签。
 
-`Python` `KiCad` `EDA` `JLCPCB` `MCP` `Hardware DSL` `IPC-2152` `MIT`
+`Python` `KiCad 10` `EDA` `JLCPCB` `MCP` `Hardware DSL` `IPC-2581` `MIT`
 
 ---
 
 ### 🏭 [WaveFixture AI · 波峰焊治具 AI 设计助手](https://github.com/mo9652962-ai/wave-fixture-ai)
-> **Gerber 进 · 治具工程图出 · 21 项制造业自动化 · 会听人话的专业 CAD 助手**
+> **Gerber 进 · 治具工程图出 · 21 项制造业自动化 · 会听人话的专业 CAD 助手** · [🌐 零摩擦在线 3D 体验站](https://mo9652962-ai.github.io/wave-fixture-ai/)
 
-* 🛠️ **全流程自动化**：拖入 PCB Gerber 生产文件，全自动生成沉板区、取手位、避位区、上锡区、压扣孔、定位销与治具外形，一键导出生产级 DXF / STL / GLB 及数控 CNC G 代码。
-* 📏 **26 条严苛 DRC 规则与 28 项自然语言参数**：支持「避位区外扩 1mm」等语义参数确定性调节，内建元件高度与波峰锡流干涉消除分析。
-* 🛡️ **高可靠工程标准**：**232 项测试全部通过**，通过 **OpenSSF Scorecard** 供应链安全认证，支持本地 Web 界面交互与 GitHub Action 自动化门禁。
+* 🛠️ **全流程自动化**：拖入 PCB Gerber 生产文件，全自动生成沉板区（R1.85 狗骨头自动清角）、迎锡面 60° 导流倒角、Ersa 8mm 防浮渣破浪槽、薄壁纯钛耐磨嵌件与人体工学把手，一键导出生产级 DXF / STL / GLB 及数控 CNC G 代码。
+* 📏 **71 条严苛 DRC 规则与 29 项自然语言参数**：支持「避位区外扩 1mm」等语义参数确定性调节，内建元件 3D 空间碰撞拦截、IATF 16949 车间首检卡与成本报价单。
+* 🛡️ **高可靠工程标准**：**367 项测试全部通过**，通过 **OpenSSF Scorecard** 供应链安全认证，提供纯前端零门槛 3D 体验站与 GitHub Action 自动化门禁。
 
-`Python` `Gerber` `DXF` `CAD` `KiCad` `CNC` `工业自动化` `MIT`
+`Python` `Gerber` `DXF` `CAD` `KiCad 10` `CNC` `工业自动化` `MIT`
 
 ---
 
