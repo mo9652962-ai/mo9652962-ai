@@ -7,7 +7,7 @@
 *数据归用户所有 · 工业级确定性与规范约束 · AI 作为专业赋能层而非黑盒依赖*
 
 <p align="center">
-  <a href="https://github.com/mo9652962-ai?tab=repositories"><img src="https://img.shields.io/badge/Repositories-15_Public-2563EB?style=flat-square&logo=github" alt="Repositories"></a>
+  <a href="https://github.com/mo9652962-ai?tab=repositories"><img src="https://img.shields.io/badge/Repositories-16_Public-2563EB?style=flat-square&logo=github" alt="Repositories"></a>
   <a href="https://mo9652962-ai.github.io/circuit-agent/"><img src="https://img.shields.io/badge/Demo-CircuitAgent_EDA-success?style=flat-square&logo=googlechrome&logoColor=white" alt="CircuitAgent EDA Demo"></a>
   <a href="https://mo9652962-ai.github.io/wave-fixture-ai/"><img src="https://img.shields.io/badge/Demo-WaveFixture_3D-success?style=flat-square&logo=googlechrome&logoColor=white" alt="WaveFixture 3D Demo"></a>
   <a href="https://github.com/mo9652962-ai/circuit-agent"><img src="https://img.shields.io/badge/Hardware-CircuitAgent-blueviolet?style=flat-square&logo=kicad&logoColor=white" alt="CircuitAgent"></a>
@@ -79,6 +79,16 @@
 | 📦 **[esq-builder-mcp](https://github.com/mo9652962-ai/esq-builder-mcp)** | ESQ 开放题库 MCP 工具链 | 构建（自动修复机械坑）→ 校验（双轨）→ 上传发布，已上架 MCP Registry | `MIT` |
 | 🧹 **[skill-maintenance-mcp](https://github.com/mo9652962-ai/skill-maintenance-mcp)** | 技能库运维 MCP | 自动完成技能修改前备份、损坏扫描、决策留痕与体检，消除机械失误 | `MIT` |
 | 🎯 **[quiz-assistant](https://github.com/mo9652962-ai/quiz-assistant)** | 本地优先题库 CLI | 墨题轻量前身，标准库 + SQLite 零依赖，支持 SM-2 算法与分层模糊匹配 | `MIT` |
+
+### 🌐 生态支撑与精选资源 (Ecosystem Support & Curated Resources)
+
+| 仓库 | 定位 | 特色与亮点 | 协议 / 类型 |
+|:---|:---|:---|:---:|
+| 📊 **[task-evidence-lab](https://github.com/mo9652962-ai/task-evidence-lab)** | 本地任务证据与质量复盘系统 | 结构化任务产物验证、证据链沉淀与质量门禁审计工具 | `MIT` |
+| 🚀 **[epm-releases](https://github.com/mo9652962-ai/epm-releases)** | 墨题英语刷题机分发仓库 | Windows 原生安装包、绿色便携包与自动更新发布源 | `Release` |
+| 🎮 **[sims4-multiplayer-dev](https://github.com/mo9652962-ai/sims4-multiplayer-dev)** | Sims4 联机 Mod (SimSync) 研发环境 | 联机协议逆向解析、异步 TCP 通信与虚拟测试套件 | `MIT` |
+| ⚡ **[awesome-kicad](https://github.com/mo9652962-ai/awesome-kicad)** | KiCad 插件与自动化资源精选 | 精选现代 PCB 设计、Python 脚本化建模与生产制造开源工具链 | `Curated List` |
+| 🔌 **[awesome-mcp-servers](https://github.com/mo9652962-ai/awesome-mcp-servers)** | Model Context Protocol (MCP) 精选集合 | 全球主流与工业级 MCP Server 工具链精选指南与生态导航 | `Curated List` |
 
 ---
 
